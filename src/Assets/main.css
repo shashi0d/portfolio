@@ -1,0 +1,29 @@
+:root {
+	--main-color: red;
+	--heading-font: 14px;
+	--info-font: 12px;
+	--small-font: 10px;
+	--regular-font-family: "RobotoRegular";
+	--bold-font-family: "RobotoBold";
+}
+@font-face {
+	font-family: "RobotoBold";
+	src: local("Roboto-Bold"), local("Roboto-Bold"), url("/src/Assets/Fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "RobotoRegular";
+	src: local("Roboto-Regular"), local("Roboto-Regular"), url("/src/Assets/Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+#root {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
