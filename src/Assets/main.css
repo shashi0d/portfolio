@@ -1,10 +1,15 @@
 :root {
 	--main-color: red;
+	--heading-font-color: white;
 	--heading-font: 14px;
 	--info-font: 12px;
 	--small-font: 10px;
 	--regular-font-family: "RobotoRegular";
 	--bold-font-family: "RobotoBold";
+	--shadow: 0px 3px 6px #0000003b;
+	--child-background: linear-gradient(90deg, hsla(48, 98%, 50%, 1) 0%, hsla(39, 84%, 39%, 1) 100%);
+	--parent-background: linear-gradient(90deg, hsla(0, 94%, 34%, 1) 0%, hsla(1, 81%, 23%, 1) 100%);
+	--extra-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 }
 @font-face {
 	font-family: "RobotoBold";
@@ -26,4 +31,5 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	background: #67c8eb5e;
 }

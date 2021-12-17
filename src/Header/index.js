@@ -9,26 +9,23 @@ function Header() {
 					Our PortFolio
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="offcanvasNavbar" />
-				<Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end">
-					<Offcanvas.Header closeButton>
-						<Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
-					</Offcanvas.Header>
-					<Offcanvas.Body>
-						<Nav className="justify-content-end flex-grow-1 pe-3">
-							<Nav.Link href="#action1">Home</Nav.Link>
-							<Nav.Link href="#action2">Link</Nav.Link>
-							<NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-								<NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-								<NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-								<NavDropdown.Divider />
-								<NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-							</NavDropdown>
-						</Nav>
-						<Form className="d-flex">
-							<FormControl type="search" placeholder="Search" className="me-2" aria-label="Search" />
-							<Button variant="outline-success">Search</Button>
-						</Form>
-					</Offcanvas.Body>
+				<Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end" className="offcanvas-container">
+					<div className="centered-div">
+						<Offcanvas.Header closeButton></Offcanvas.Header>
+						<Offcanvas.Body>
+							<div className="menu-holder">
+								<div className="menu-item">
+									<h1>Me</h1>
+								</div>
+								<div className="menu-item">
+									<h1>Me in B.E</h1>
+								</div>
+								<div className="menu-item">
+									<h1>Me Now</h1>
+								</div>
+							</div>
+						</Offcanvas.Body>
+					</div>
 				</Navbar.Offcanvas>
 			</Container>
 		</Navbar>
