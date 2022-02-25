@@ -1,6 +1,6 @@
 :root {
-	--main-color: red;
-	--heading-font-color: white;
+	--main-color: rgb(0, 217, 255);
+	--heading-font-color: black;
 	--heading-font: 14px;
 	--info-font: 12px;
 	--small-font: 10px;
@@ -25,6 +25,41 @@
 @font-face {
 	font-family: "RobotoRegular";
 	src: local("Roboto-Regular"), local("Roboto-Regular"), url("/src/Assets/Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Geomanist";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.woff2") format("woff2"),
+		url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.woff") format("woff"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Geomanist-Bold";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "WorksansNormal";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "WorksansBold";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "WorksansMedium";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "OpenSansBold";
+	src: local("OpenSans-Bold"), local("OpenSans-Bold"), url("/src/Assets/Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: local("OpenSans-Regular"), local("OpenSans-Regular"), url("/src/Assets/Fonts/Open_Sans//OpenSans-Regular.ttf") format("truetype");
 	font-weight: 400;
 }
 #root {

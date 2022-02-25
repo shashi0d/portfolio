@@ -6,6 +6,7 @@
 	height: 60px;
 	box-shadow: var(--shadow);
 	z-index: 200;
+	background: var(--main-color) !important;
 }
 .brand-image-parent {
 	width: 40px;
@@ -78,7 +79,7 @@
 .nav-link {
 	display: inline-block;
 	position: relative;
-	color: black !important;
+	color: var(--heading-font-color) !important;
 	cursor: pointer;
 	margin: 5px;
 	width: fit-content;

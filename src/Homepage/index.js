@@ -11,6 +11,7 @@ import Profile from "../Profile";
 import Skills from "../Skills";
 import "./index.css";
 import Languages from "../Languages";
+import ColorPicker from "../ColorPicker";
 
 const Homepage = () => {
 	return (
@@ -24,6 +25,7 @@ const Homepage = () => {
 				<Certifications />
 				<Skills />
 				<Languages />
+				<ColorPicker />
 			</Container>
 			<Footer />
 		</>
