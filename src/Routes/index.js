@@ -5,7 +5,7 @@ const MyRoutes = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Homepage />} />
+				<Route path="/portfolio" element={<Homepage />} />
 			</Routes>
 		</BrowserRouter>
 	);
