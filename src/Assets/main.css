@@ -1,0 +1,76 @@
+:root {
+	--main-color: rgb(0, 217, 255);
+	--heading-font-color: black;
+	--heading-font: 14px;
+	--info-font: 12px;
+	--small-font: 10px;
+	--regular-font-family: "RobotoRegular";
+	--bold-font-family: "RobotoBold";
+	--medium-font-family: "RobotoMedium";
+	--shadow: 0px 3px 6px #0000003b;
+	--child-background: linear-gradient(90deg, hsla(48, 98%, 50%, 1) 0%, hsla(39, 84%, 39%, 1) 100%);
+	--parent-background: linear-gradient(90deg, hsla(0, 94%, 34%, 1) 0%, hsla(1, 81%, 23%, 1) 100%);
+	--extra-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+@font-face {
+	font-family: "RobotoBold";
+	src: local("Roboto-Bold"), local("Roboto-Bold"), url("/src/Assets/Fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "RobotoMedium";
+	src: local("Roboto-Medium"), local("Roboto-Medium"), url("/src/Assets/Fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "RobotoRegular";
+	src: local("Roboto-Regular"), local("Roboto-Regular"), url("/src/Assets/Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Geomanist";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.woff2") format("woff2"),
+		url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.woff") format("woff"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Geomanist-Bold";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/Geomanist/geomanist-regular-webfont.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "WorksansNormal";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "WorksansBold";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "WorksansMedium";
+	src: local("Geomanist Regular"), local("Geomanist-Regular"), url("/src/Assets/Fonts/WorkSans/static/WorkSans-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "OpenSansBold";
+	src: local("OpenSans-Bold"), local("OpenSans-Bold"), url("/src/Assets/Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: local("OpenSans-Regular"), local("OpenSans-Regular"), url("/src/Assets/Fonts/Open_Sans//OpenSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+#root {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f3f2ef;
+}
