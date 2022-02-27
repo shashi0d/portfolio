@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shashi0d/portfolio/static/css/main.da221e9c.chunk.css",
+    "main.js": "/shashi0d/portfolio/static/js/main.1172288f.chunk.js",
+    "main.js.map": "/shashi0d/portfolio/static/js/main.1172288f.chunk.js.map",
+    "runtime-main.js": "/shashi0d/portfolio/static/js/runtime-main.31f5e265.js",
+    "runtime-main.js.map": "/shashi0d/portfolio/static/js/runtime-main.31f5e265.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/shashi0d/portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.fe060962.chunk.js": "/shashi0d/portfolio/static/js/2.fe060962.chunk.js",
+    "static/js/2.fe060962.chunk.js.map": "/shashi0d/portfolio/static/js/2.fe060962.chunk.js.map",
+    "index.html": "/shashi0d/portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/shashi0d/portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.da221e9c.chunk.css.map": "/shashi0d/portfolio/static/css/main.da221e9c.chunk.css.map",
+    "static/js/2.fe060962.chunk.js.LICENSE.txt": "/shashi0d/portfolio/static/js/2.fe060962.chunk.js.LICENSE.txt",
+    "static/media/Logo.16dbd016.jpg": "/shashi0d/portfolio/static/media/Logo.16dbd016.jpg",
+    "static/media/main.css": "/shashi0d/portfolio/static/media/geomanist-regular-webfont.dfc15950.ttf",
+    "static/media/profile.d940a21c.jpg": "/shashi0d/portfolio/static/media/profile.d940a21c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31f5e265.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.fe060962.chunk.js",
+    "static/css/main.da221e9c.chunk.css",
+    "static/js/main.1172288f.chunk.js"
+  ]
+}
