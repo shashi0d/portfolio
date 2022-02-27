@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SkillListing from "./SkillListing";
 import "./index.css";
+import SubHeader from "../SubHeader";
 function Skills() {
 	let skills = [
 		{
@@ -40,9 +41,12 @@ function Skills() {
 	];
 	return (
 		<Container id="skills" className="skills-container">
-			{skills.map((item) => {
-				return <SkillListing skill={item.name} />;
-			})}
+			<SubHeader title="Skills" />
+			<Row>
+				{skills.map((item) => {
+					return <SkillListing skill={item.name} />;
+				})}
+			</Row>
 		</Container>
 	);
 }

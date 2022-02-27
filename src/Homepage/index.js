@@ -24,10 +24,10 @@ const Homepage = () => {
 				<Experience />
 				<Certifications />
 				<Skills />
-				<Languages />
-				<ColorPicker />
+				{/* <Languages /> */}
+				{/* <ColorPicker /> */}
 			</Container>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 };

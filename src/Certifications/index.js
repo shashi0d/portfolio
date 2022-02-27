@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import SubHeader from "../SubHeader";
 import CertificationListing from "./CertificationListing";
 import "./index.css";
 function Certifications() {
@@ -19,9 +20,12 @@ function Certifications() {
 	];
 	return (
 		<Container className="certification-container">
-			{certifications.map((item) => {
-				return <CertificationListing name={item.name} institution={item.institute} issuetime={item.issuetime} credentialid={item.credentialid} />;
-			})}
+			<SubHeader title={"Certifications"} />
+			<Row>
+				{certifications.map((item) => {
+					return <CertificationListing name={item.name} institution={item.institute} issuetime={item.issuetime} credentialid={item.credentialid} />;
+				})}
+			</Row>
 		</Container>
 	);
 }

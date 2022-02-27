@@ -11,29 +11,23 @@ function Header() {
 						<Image src={Logo} />
 					</div>
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="navbarScroll" />
-				<Navbar.Collapse>
-					<Nav>
-						<Nav.Item>
-							<Nav.Link href="#">About</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
-							<Nav.Link href="#experience">Experience</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
-							<Nav.Link href="#projects">Projects</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
-							<Nav.Link href="#education">Education</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
-							<Nav.Link href="#certifications">Certifications</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
-							<Nav.Link href="#skills">Skills</Nav.Link>
-						</Nav.Item>
-					</Nav>
-				</Navbar.Collapse>
+				{/* <Navbar.Toggle aria-controls="navbarScroll" />
+				<Navbar.Collapse> */}
+				{/* <Nav>
+					<Nav.Item>
+						<Nav.Link href="#experience">Experience</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
+						<Nav.Link href="#projects">Projects</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
+						<Nav.Link href="#education">Education</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
+						<Nav.Link href="#certifications">Certifications</Nav.Link>
+					</Nav.Item>
+				</Nav> */}
+				{/* </Navbar.Collapse> */}
 
 				{/* <Navbar.Toggle aria-controls="offcanvasNavbar" /> */}
 				{/* <Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end" className="offcanvas-container">

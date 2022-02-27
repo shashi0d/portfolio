@@ -1,5 +1,6 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
+import SubHeader from "../SubHeader";
 import ExperienceListing from "./ExperienceListing";
 import "./index.css";
 function Experience() {
@@ -25,9 +26,12 @@ function Experience() {
 	];
 	return (
 		<Container id="experience" className="experience-container">
-			{experience.map((item) => {
-				return <ExperienceListing name={item.name} role={item.role} type={item.type} duration={item.duratoin} experience={item.experience} address={item.address} tasks={item.tasks} />;
-			})}
+			<SubHeader title="Experience" />
+			<Row>
+				{experience.map((item) => {
+					return <ExperienceListing name={item.name} role={item.role} type={item.type} duration={item.duratoin} experience={item.experience} address={item.address} tasks={item.tasks} />;
+				})}
+			</Row>
 		</Container>
 	);
 }
