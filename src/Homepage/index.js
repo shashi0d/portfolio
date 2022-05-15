@@ -12,6 +12,7 @@ import Skills from "../Skills";
 import "./index.css";
 import Languages from "../Languages";
 import ColorPicker from "../ColorPicker";
+import SocialLinkCube from "../SocialLinksCube";
 
 const Homepage = () => {
 	return (
@@ -24,6 +25,7 @@ const Homepage = () => {
 				<Experience />
 				<Certifications />
 				<Skills />
+				<SocialLinkCube />
 				{/* <Languages /> */}
 				{/* <ColorPicker /> */}
 			</Container>
