@@ -2,10 +2,18 @@
 	position: fixed !important;
 	bottom: 30px;
 	left: 30px;
-	width: 100px !important;
-	height: 100px !important;
+	width: 80px !important;
+	height: 80px !important;
 }
-.swiper-slide img {
-	width: 100%;
-	height: 100%;
+.swiper-slide svg {
+	width: 80%;
+	height: 80%;
+}
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swipeElement .swiper-pagination {
+	display: none;
 }
