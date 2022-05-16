@@ -2,12 +2,12 @@
 	position: fixed !important;
 	bottom: 30px;
 	left: 30px;
-	width: 80px !important;
-	height: 80px !important;
+	width: 46px !important;
+	height: 46px !important;
 }
 .swiper-slide svg {
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
 }
 .swiper-slide {
 	display: flex;
@@ -16,4 +16,17 @@
 }
 .swipeElement .swiper-pagination {
 	display: none;
+}
+.swiper-slide a {
+	width: 80%;
+	height: 80%;
+}
+@media only screen and (max-width: 961px) {
+	.swipeElement {
+		bottom: unset !important;
+		top: 1% !important;
+		right: 2% !important;
+		left: unset !important;
+		z-index: 5000;
+	}
 }

@@ -19,7 +19,7 @@ export default function SocialLinkCube() {
 				grabCursor={true}
 				cubeEffect={{
 					shadow: true,
-					slideShadows: true,
+					slideShadows: false,
 					shadowOffset: 20,
 					shadowScale: 0.94,
 				}}
@@ -33,21 +33,27 @@ export default function SocialLinkCube() {
 				className="mySwiper swipeElement"
 			>
 				<SwiperSlide>
-					<Link to={"https://www.instagram.com/shashi096/"} target="_blank" className="m-1">
+					<a href={"https://www.instagram.com/shashi096/"} target="_blank" rel="noreferrer">
 						<SvgComponent name="Instagram" />
-					</Link>
+					</a>
 					{/* <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> */}
 				</SwiperSlide>
 				<SwiperSlide>
-					<SvgComponent name="Mail" />
+					<a href={"mailto: shashi@zerodistance.io"} target="_blank" rel="noreferrer">
+						<SvgComponent name="Mail" />
+					</a>
 					{/* <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> */}
 				</SwiperSlide>
 				<SwiperSlide>
-					<SvgComponent name="Pinterest" />
+					<a href={"https://pin.it/1hom1KV"} target="_blank" rel="noreferrer">
+						<SvgComponent name="Pinterest" />
+					</a>
 					{/* <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> */}
 				</SwiperSlide>
 				<SwiperSlide>
-					<SvgComponent name="LinkedIn" />
+					<a href={"https://www.linkedin.com/in/meetshashi/"} target="_blank" rel="noreferrer">
+						<SvgComponent name="LinkedIn" />
+					</a>
 					{/* <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> */}
 				</SwiperSlide>
 			</Swiper>
