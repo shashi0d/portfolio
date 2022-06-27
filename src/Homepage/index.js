@@ -17,7 +17,7 @@ import SocialLinkCube from "../SocialLinksCube";
 const Homepage = () => {
 	useEffect(() => {
 		setInterval(function () {
-			let theme = document.documentElement.style.setProperty("--root-bg", "rgb(112, 112, 112)");
+			let theme = document.documentElement.style.getPropertyValue("--site-font-color");
 			if (theme === "black") {
 				document.documentElement.style.setProperty("--root-bg", "rgb(112, 112, 112)");
 				document.documentElement.style.setProperty("--site-font-color", "white");
