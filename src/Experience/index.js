@@ -12,7 +12,7 @@ function Experience() {
 			duration: "Feb 2021 - Present",
 			experience: "1 yr 1 mo",
 			address: "Bangalore Urban, Karnataka,",
-			tasks: "Currently working on React, Firebase, Unity,Currently working on React, Firebase, Unity",
+			tasks: "Currently working on React, Firebase, Unity",
 		},
 		{
 			name: "Selvitate Technologies Pvt Ltd",
