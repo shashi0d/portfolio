@@ -7,7 +7,7 @@ function Experience() {
 	let experience = [
 		{
 			name: "Zero Distance",
-			role: "Software Developer",
+			role: "Lead and Developer",
 			type: "Full-time",
 			duration: "Feb 2021 - Present",
 			experience: "1 yr 1 mo",
@@ -29,7 +29,7 @@ function Experience() {
 			<SubHeader title="Experience" />
 			<Row>
 				{experience.map((item) => {
-					return <ExperienceListing name={item.name} role={item.role} type={item.type} duration={item.duratoin} experience={item.experience} address={item.address} tasks={item.tasks} />;
+					return <ExperienceListing name={item.name} role={item.role} type={item.type} duration={item.duration} experience={item.experience} address={item.address} tasks={item.tasks} />;
 				})}
 			</Row>
 		</Container>
