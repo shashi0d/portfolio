@@ -2,5 +2,6 @@
 	padding: 10px 20px !important;
 	margin-top: 10px;
 	border-radius: 8px;
-	background: white;
+	background: var(--card-bg);
+	transition: background 3s ease;
 }

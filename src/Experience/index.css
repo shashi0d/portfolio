@@ -1,5 +1,6 @@
 .experience-container {
-	background: white !important;
+	background: var(--card-bg);
+	transition: background 3s ease;
 	padding: 10px 20px !important;
 	margin-top: 10px !important;
 	position: relative;

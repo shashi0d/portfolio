@@ -11,7 +11,7 @@ function Profile() {
 			<Row>
 				<Col className="profile-bg">
 					<Row className="profile-container">
-						<Col sm={"auto"} className="d-flex justify-content-center">
+						<Col sm={"auto"} className="d-flex justify-content-center profile-img">
 							<Image src={profile} />
 						</Col>
 						<Col>

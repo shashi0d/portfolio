@@ -1,6 +1,13 @@
 :root {
 	--main-color: rgb(0, 217, 255);
-	--heading-font-color: black;
+	/* --root-bg: rgb(112, 112, 112); */
+	--root-bg: #f3f2ef;
+	--heading-font-color: white;
+	--site-hero-font-color: white;
+	--site-font-color: black;
+	/* --card-bg: rgba(0, 0, 0, 0.74); */
+
+	--card-bg: white;
 	--heading-font: 14px;
 	--info-font: 12px;
 	--small-font: 10px;
@@ -72,5 +79,6 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #f3f2ef;
+	background: var(--root-bg);
+	transition: background 3s ease;
 }
